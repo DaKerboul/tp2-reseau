@@ -93,11 +93,29 @@ c)
 
 ````
 ### Exercice 4
-a)
-b)
-c)
-d)
+a,b,c,d) 
+Pour TCP :
+(*) Les adresses MAC ne sont pas les mêmes, car nous avons effectué le TP sur des machines réelles dans le cluster physique d'Ethan.
+ | Machine    | Cynosure           | Mikoshi                          |
+ |------------|----------------------------------|----------------------------------|
+ | Adresse Mac       | 6c:4b:90:42:46:69 (*) | e8:6a:64:f3:0d:45 (*) |
+ | Adresse IP     | 192.168.1.42  | cynosure.nsca (192.168.1.87) |
+ | UDP/TCP     | (tos 0x0, ttl 64, id 43404, offset 0, flags [DF], proto TCP (6), length 60) | (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40) |
+ | Port du Puit     | 52027 | 52027 |
+ | Port de la source     | 52027 | 52027 |
+
+
+Pour UDP :
+ | Machine    | Cynosure           | Mikoshi                          |
+ |------------|----------------------------------|----------------------------------|
+ | Adresse Mac       | 6c:4b:90:42:46:69 (*) | e8:6a:64:f3:0d:45 (*) |
+ | Adresse IP     | 192.168.1.42  | cynosure.nsca (192.168.1.87) |
+ | UDP/TCP     | (tos 0x0, ttl 64, id 26406, offset 0, flags [DF], proto UDP (17), length 38) | (tos 0x0, ttl 64, id 26406, offset 0, flags [DF], proto UDP (17), length 38) |
+ | Port du Puit     | 56368 | 5667 |
+ | Port de la source     | 56368 | 56368 |
+
 
 ### Exercice 5
-a)
-b)
+a) La diffusion Broadcast envoie une communication à tous les appareils du réseau.   
+b) Adresse de diffusion
+![alt text](./broadcast_cynosure.gif)
