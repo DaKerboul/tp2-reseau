@@ -16,6 +16,8 @@ Machine | Alpha     | Omega      |
 | Mask | 255.255.255.0 | 255.255.255.0 |
 
 Ping :
+
+![alt text](ping105.gif)
   
 ## Partie 2
 ## Partie 3
