@@ -6,18 +6,24 @@ Raphaël, Ethan, Antonin
 ## Sommaire
 ### [Partie 1](#partie-1)
 ### [Partie 2](#partie-2)
-### [Partie 3](#partie-3)
 --------------------
 ## Partie 1
-Configuration de deux VM chez Ethan (Alpha, Omega)  
-Machine | Alpha     | Omega      |
+Configuration de deux VM chez Ethan (Cynosure, Mikoshi)  
+Machine | Cynosure     | Mikoshi      |
 | ------------- | ------------- | ------------- |
-| IPAdress | 192.168.1.107 | 192.168.1.105 |
+| IPAdress | 192.168.1.87 | 192.168.1.42 |
 | Mask | 255.255.255.0 | 255.255.255.0 |
 
 Ping :
 
-![alt text](ping105.gif)
+![alt text](ping_cynosure_mikoshi.gif)
   
+-------
 ## Partie 2
-## Partie 3
+
+Machine | Cynosure     | Mikoshi      |
+| ------------- | ------------- | ------------- |
+| puit | ````./tsock -p 5667 ```` | ````./tsock -p 5668```` |
+| source | ````./tsock -s 192.168.1.42 5668```` | ````./tsock -s 192.168.1.87 5667```` |
+
+![alt text](tsock-test.gif)
