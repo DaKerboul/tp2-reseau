@@ -92,7 +92,7 @@ Log ici :
 09:37:59.557156 IP 192.168.1.42.53801 > cynosure.nsca: Flags [.], ack 2, win 502, options [nop,nop,TS val 3088549142 ecr 3686256455], length 0
 ````
 c)
-Il faut que le paquet tcp envoyé ait une taille inferieure à MSS.
+Il faut que le paquet tcp envoyé ait une taille suppérieure à MSS.
 Quand on envoit un paquet de 35 000 octets, on a un découpage qui s'opère alors, et les données sont reçues dans l'ordre, même si mal delimitées (flux).
 
 On voit dans les logs ci dessous la reception non-pas d'un paquet tcp, mais bien de plusieurs de taille variables:
