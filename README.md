@@ -166,3 +166,5 @@ Pour UDP :
 a) La diffusion Broadcast envoie une communication à tous les appareils du réseau.   
 b) Adresse de diffusion
 ![alt text](./broadcast_cynosure.gif)
+
+On constate des paquets préfixés de 192.168.1.x et de 45.145.164.x, ce qui nous permet de conclure qu'il y a deux interfaces dont les adresses de broadcast sont respectivement 192.168.1.255 et 45.145.164.255.
