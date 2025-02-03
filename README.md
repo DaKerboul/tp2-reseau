@@ -41,4 +41,9 @@ b) On constate des pertes avec UDP :
 
 ![alt text](image_perte.png)
 
-à l'inverse de TCP qui ne perd pas de packages
+à l'inverse de TCP qui ne perd pas de packages :
+
+![alt text](image_non_perte_tcp.png)
+
+c) 
+
