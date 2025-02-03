@@ -12,8 +12,8 @@ Raphaël, Ethan, Antonin
 Configuration de deux VM chez Ethan (Alpha, Omega)  
 Machine | Alpha     | Omega      |
 | ------------- | ------------- | ------------- |
-| IPAdress | AdressAlpha | AdressOmega |
-| Mask | MaskAlpha | MaskOmega |
+| IPAdress | 192.168.1.107 | 192.168.1.105 |
+| Mask | 255.255.255.0 | 255.255.255.0 |
   
 ## Partie 2
 ## Partie 3
