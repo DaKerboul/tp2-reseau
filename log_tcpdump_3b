@@ -1,0 +1,8 @@
+09:37:59.556289 IP 192.168.1.42.53801 > cynosure.nsca: Flags [S], seq 3811600990, win 64240, options [mss 1460,sackOK,TS val 3088549141 ecr 0,nop,wscale 7], length 0
+09:37:59.556392 IP cynosure.nsca > 192.168.1.42.53801: Flags [S.], seq 3556977975, ack 3811600991, win 65160, options [mss 1460,sackOK,TS val 3686256413 ecr 3088549141,nop,wscale 7], length 0
+09:37:59.556664 IP 192.168.1.42.53801 > cynosure.nsca: Flags [.], ack 1, win 502, options [nop,nop,TS val 3088549142 ecr 3686256413], length 0
+09:37:59.556757 IP 192.168.1.42.53801 > cynosure.nsca: Flags [P.], seq 1:31, ack 1, win 502, options [nop,nop,TS val 3088549142 ecr 3686256413], length 30
+09:37:59.556779 IP cynosure.nsca > 192.168.1.42.53801: Flags [.], ack 31, win 502, options [nop,nop,TS val 3686256455 ecr 3088549142], length 0
+09:37:59.556814 IP 192.168.1.42.53801 > cynosure.nsca: Flags [F.], seq 31, ack 1, win 502, options [nop,nop,TS val 3088549142 ecr 3686256413], length 0
+09:37:59.556906 IP cynosure.nsca > 192.168.1.42.53801: Flags [F.], seq 1, ack 32, win 502, options [nop,nop,TS val 3686256455 ecr 3088549142], length 0
+09:37:59.557156 IP 192.168.1.42.53801 > cynosure.nsca: Flags [.], ack 2, win 502, options [nop,nop,TS val 3088549142 ecr 3686256455], length 0
