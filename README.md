@@ -37,7 +37,8 @@ a) UDP :
 
 ![alt text](tsock2_cynosure_mikoshi.gif)
 
-b) 
+b) On constate des pertes avec UDP :
 
 ![alt text](image_perte.png)
 
+à l'inverse de TCP qui ne perd pas de packages
