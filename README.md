@@ -32,3 +32,5 @@ Machine | Cynosure     | Mikoshi      |
 
 
 ![alt text](tsock2_cynosure_mikoshi.gif)
+
+![alt text](image_perte.png)
