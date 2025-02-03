@@ -27,8 +27,11 @@ Machine | Cynosure     | Mikoshi      |
 | puit | ````./tsock -p 5667 ```` | ````./tsock -p 5668```` |
 | source | ````./tsock -s 192.168.1.42 5668```` | ````./tsock -s 192.168.1.87 5667```` |
 
-
+TCP :
 ![alt text](tsock_cynosure_mikoshi.gif)
-
-
+UDP :
 ![alt text](tsock2_cynosure_mikoshi.gif)
+#### 1
+a) UDP :
+
+b) 
