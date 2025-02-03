@@ -1,7 +1,7 @@
 # TP 2 réseau
 
 ### Team
-Raphaël, Ethan, Antonin
+Raphaël THIEFFRY, Ethan PUYAUBREAU, Antonin RUSSAC
 
 ## Sommaire
 - [TP 2 réseau](#tp-2-réseau)
@@ -17,7 +17,7 @@ Raphaël, Ethan, Antonin
 --------------------
 
 ## Partie 1
-Configuration de deux machines chez Ethan (Cynosure, Mikoshi)
+Configuration de deux machines chez Ethan (Cynosure, Mikoshi), tournant sous Ubuntu Server 22.04 LTS.
    Machine    | Cynosure     | Mikoshi      |
  |------------|--------------|--------------|
  | IPAdress   | 192.168.1.87 | 192.168.1.42 |
@@ -63,11 +63,11 @@ c) L'expérience consiste à saturer la communication UDP
 ./tsock -p 5667 -u -15000
 ````
 ### Exercice 2
-a) Avec UDP, on observe qu'aucun package part, mais pas d'erreur particulière :
+a) Avec UDP, on observe qu'aucun package n'est receptionné, mais ils partent bien tous sans erreurs particulières :
 
 ![alt text](./2a_udp_cynosure_mikoshi.gif)
 
-alors qu'en TCP, on observe une erreur d'ouverture de flux :
+alors qu'en TCP, on observe une erreur d'ouverture de flux : les packages ne partent même pas
 
 ![alt text](./2a_tcp_cynosure_mikoshi.gif)
 
@@ -80,6 +80,10 @@ b)
 On peut voir le login avec TCP :
 ![alt text](./3b_tcp_cynosure_mikoshi.gif)
 Log ici :
+Les trois premiers sont l'initialisation de la connection (three ways handshake)  
+La quatrième ligne est celle de la réception du packet.  
+La cinquième est l'acknowledgement.  
+Les dernières lignes sont la fermeture de la connection
 
 ````shell
 09:37:59.556289 IP 192.168.1.42.53801 > cynosure.nsca: Flags [S], seq 3811600990, win 64240, options [mss 1460,sackOK,TS val 3088549141 ecr 0,nop,wscale 7], length 0
@@ -95,7 +99,7 @@ c)
 Il faut que le paquet tcp envoyé ait une taille suppérieure à MSS.
 Quand on envoit un paquet de 35 000 octets, on a un découpage qui s'opère alors, et les données sont reçues dans l'ordre, même si mal delimitées (flux).
 
-On voit dans les logs ci dessous la reception non-pas d'un paquet tcp, mais bien de plusieurs de taille variables:
+On voit dans les logs ci dessous la reception non pas d'un paquet tcp, mais bien de plusieurs de taille variables:
 ````shell
     192.168.1.42.32783 > cynosure.nsca: Flags [S], cksum 0x0d1e (correct), seq 129520240, win 64240, options [mss 1460,sackOK,TS val 3089699739 ecr 0,nop,wscale 7], length 0
 09:57:10.154360 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60)    cynosure.nsca > 192.168.1.42.32783: Flags [S.], cksum 0x8400 (incorrect -> 0x3b63), seq 3461727828, ack 129520241, win 65160, options [mss 1460,sackOK,TS val 3687407005 ecr 3089699739,nop,wscale 7], length 0
@@ -133,7 +137,7 @@ On voit dans les logs ci dessous la reception non-pas d'un paquet tcp, mais bien
 ````
 
 En revanche, si on regarde la MTU, on remarque que les chiffres ne concordent pas : 1500 de MTU en envoi, mais pourtant on reçoit des paquets de taille >6000.
-Il semble qu'il faille configurer tcpdump (plus précisement, TCP Segmentation Offload), mais les machines utilisées étant critiques pour le réseau local de éthan, nous n'avons pas voulu prendre de risque.
+Il semble qu'il faille configurer tcpdump (plus précisement, TCP Segmentation Offload), mais les machines utilisées étant critiques pour le réseau local de Ethan, nous n'avons pas voulu prendre de risque.
 
 ### Exercice 4
 a,b,c,d) 
