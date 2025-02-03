@@ -1,0 +1,313 @@
+tcpdump: listening on eno1, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+09:52:08.844582 IP (tos 0x0, ttl 64, id 44086, offset 0, flags [DF], proto TCP (6), length 60)
+    192.168.1.42.41563 > cynosure.nsca: Flags [S], cksum 0xbf13 (correct), seq 1636941143, win 64240, options [mss 1460,sackOK,TS val 3089398429 ecr 0,nop,wscale 7], length 0
+09:52:08.844682 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60)    cynosure.nsca > 192.168.1.42.41563: Flags [S.], cksum 0x8400 (incorrect -> 0x3005), seq 1632209337, ack 1636941144, win 65160, options [mss 1460,sackOK,TS val 3687105693 ecr 3089398429,nop,wscale 7], length 0
+09:52:08.844938 IP (tos 0x0, ttl 64, id 44087, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x5b63 (correct), ack 1, win 502, options [nop,nop,TS val 3089398430 ecr 3687105693], length 0
+09:52:08.845762 IP (tos 0x0, ttl 64, id 44088, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0xa040 (incorrect -> 0xec8f), seq 1:7241, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105693], length 7240
+09:52:08.845811 IP (tos 0x0, ttl 64, id 31309, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x3e77), ack 7241, win 614, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.845863 IP (tos 0x0, ttl 64, id 44093, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0xa040 (incorrect -> 0x1dc5), seq 7241:14481, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105693], length 7240
+09:52:08.845882 IP (tos 0x0, ttl 64, id 31310, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x2214), ack 14481, win 641, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846107 IP (tos 0x0, ttl 64, id 44098, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xb58f (correct), seq 14481:15929, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 1448
+09:52:08.846129 IP (tos 0x0, ttl 64, id 31311, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x1c77), ack 15929, win 630, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846186 IP (tos 0x0, ttl 64, id 44099, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0xfba9), seq 15929:23169, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 7240
+09:52:08.846202 IP (tos 0x0, ttl 64, id 31312, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x0066), ack 23169, win 575, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846235 IP (tos 0x0, ttl 64, id 44104, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x9397 (correct), seq 23169:24617, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 1448
+09:52:08.846235 IP (tos 0x0, ttl 64, id 44105, offset 0, flags [DF], proto TCP (6), length 2948)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x8f48 (incorrect -> 0x20e8), seq 24617:27513, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 2896
+09:52:08.846252 IP (tos 0x0, ttl 64, id 31313, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xfac8), ack 24617, win 564, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846267 IP (tos 0x0, ttl 64, id 31314, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xef8e), ack 27513, win 542, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846322 IP (tos 0x0, ttl 64, id 44107, offset 0, flags [DF], proto TCP (6), length 7540)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0xa138 (incorrect -> 0xa23e), seq 27513:35001, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 7488
+09:52:08.846337 IP (tos 0x0, ttl 64, id 31315, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xd288), ack 35001, win 484, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846361 IP (tos 0x0, ttl 64, id 44113, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x4315 (correct), seq 35001:36449, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 1448
+09:52:08.846392 IP (tos 0x0, ttl 64, id 31316, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xcceb), ack 36449, win 473, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846435 IP (tos 0x0, ttl 64, id 44114, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x794f), seq 36449:43689, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 7240
+09:52:08.846452 IP (tos 0x0, ttl 64, id 31317, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xb0db), ack 43689, win 417, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846499 IP (tos 0x0, ttl 64, id 44119, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x6c98 (correct), seq 43689:45137, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 1448
+09:52:08.846499 IP (tos 0x0, ttl 64, id 44120, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0x9b45), seq 45137:50929, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 5792
+09:52:08.846515 IP (tos 0x0, ttl 64, id 31318, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xab3e), ack 45137, win 406, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846540 IP (tos 0x0, ttl 64, id 31319, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x94cb), ack 50929, win 361, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846568 IP (tos 0x0, ttl 64, id 44124, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x40bf), seq 50929:58169, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 7240
+09:52:08.846598 IP (tos 0x0, ttl 64, id 31320, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x78bb), ack 58169, win 305, options [nop,nop,TS val 3687105744 ecr 3089398431], length 0
+09:52:08.846624 IP (tos 0x0, ttl 64, id 44129, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x3408 (correct), seq 58169:59617, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 1448
+09:52:08.846624 IP (tos 0x0, ttl 64, id 44130, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0xa69b), seq 59617:63961, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 4344
+09:52:08.846655 IP (tos 0x0, ttl 64, id 31321, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x6247), ack 63961, win 260, options [nop,nop,TS val 3687105745 ecr 3089398431], length 0
+09:52:08.846674 IP (tos 0x0, ttl 64, id 44133, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x94f0 (incorrect -> 0x959b), seq 63961:68305, ack 1, win 502, options [nop,nop,TS val 3089398431 ecr 3687105744], length 4344
+09:52:08.846697 IP (tos 0x0, ttl 64, id 31322, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x5170), ack 68305, win 227, options [nop,nop,TS val 3687105745 ecr 3089398431], length 0
+09:52:08.846728 IP (tos 0x0, ttl 64, id 44136, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x0a00), seq 68305:72649, ack 1, win 502, options [nop,nop,TS val 3089398432 ecr 3687105744], length 4344
+09:52:08.846743 IP (tos 0x0, ttl 64, id 31323, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x4098), ack 72649, win 194, options [nop,nop,TS val 3687105745 ecr 3089398432], length 0
+09:52:08.846795 IP (tos 0x0, ttl 64, id 44139, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0xd470), seq 72649:78441, ack 1, win 502, options [nop,nop,TS val 3089398432 ecr 3687105744], length 5792
+09:52:08.846815 IP (tos 0x0, ttl 64, id 31324, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x2a25), ack 78441, win 149, options [nop,nop,TS val 3687105745 ecr 3089398432], length 0
+09:52:08.846839 IP (tos 0x0, ttl 64, id 44143, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0xbdd0), seq 78441:84233, ack 1, win 502, options [nop,nop,TS val 3089398432 ecr 3687105744], length 5792
+09:52:08.846860 IP (tos 0x0, ttl 64, id 31325, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x13b2), ack 84233, win 104, options [nop,nop,TS val 3687105745 ecr 3089398432], length 0
+09:52:08.846883 IP (tos 0x0, ttl 64, id 44147, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0xf75f (correct), seq 84233:85681, ack 1, win 502, options [nop,nop,TS val 3089398432 ecr 3687105744], length 1448
+09:52:08.847014 IP (tos 0x0, ttl 64, id 44148, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0xa187), seq 85681:91473, ack 1, win 502, options [nop,nop,TS val 3089398432 ecr 3687105745], length 5792
+09:52:08.847036 IP (tos 0x0, ttl 64, id 31326, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xf7a1), ack 91473, win 48, options [nop,nop,TS val 3687105745 ecr 3089398432], length 0
+09:52:08.847063 IP (tos 0x0, ttl 64, id 44152, offset 0, flags [DF], proto TCP (6), length 5820)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x9a80 (incorrect -> 0x33a0), seq 91473:97241, ack 1, win 502, options [nop,nop,TS val 3089398432 ecr 3687105745], length 5768
+09:52:08.847096 IP (tos 0x0, ttl 64, id 31327, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xe146), ack 97241, win 3, options [nop,nop,TS val 3687105745 ecr 3089398432], length 0
+09:52:08.857040 IP (tos 0x0, ttl 64, id 31328, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xe087), ack 97241, win 184, options [nop,nop,TS val 3687105755 ecr 3089398432], length 0
+09:52:08.857387 IP (tos 0x0, ttl 64, id 44156, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xc482 (correct), seq 97241:98689, ack 1, win 502, options [nop,nop,TS val 3089398442 ecr 3687105755], length 1448
+09:52:08.857485 IP (tos 0x0, ttl 64, id 44157, offset 0, flags [DF], proto TCP (6), length 8740)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa5e8 (incorrect -> 0x4909), seq 98689:107377, ack 1, win 502, options [nop,nop,TS val 3089398442 ecr 3687105755], length 8688
+09:52:08.857511 IP (tos 0x0, ttl 64, id 31329, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xb932), ack 107377, win 107, options [nop,nop,TS val 3687105755 ecr 3089398442], length 0
+09:52:08.857552 IP (tos 0x0, ttl 64, id 44163, offset 0, flags [DF], proto TCP (6), length 1524)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x89b8 (incorrect -> 0x113f), seq 107377:108849, ack 1, win 502, options [nop,nop,TS val 3089398442 ecr 3687105755], length 1472
+09:52:08.857552 IP (tos 0x0, ttl 64, id 44165, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0xfa03), seq 108849:116089, ack 1, win 502, options [nop,nop,TS val 3089398442 ecr 3687105755], length 7240
+09:52:08.857582 IP (tos 0x0, ttl 64, id 31330, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x976e), ack 116089, win 39, options [nop,nop,TS val 3687105755 ecr 3089398442], length 0
+09:52:08.857647 IP (tos 0x0, ttl 64, id 44170, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x94f0 (incorrect -> 0xc0db), seq 116089:120433, ack 1, win 502, options [nop,nop,TS val 3089398442 ecr 3687105755], length 4344
+09:52:08.857664 IP (tos 0x0, ttl 64, id 31331, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x8696), ack 120433, win 6, options [nop,nop,TS val 3687105756 ecr 3089398442], length 0
+09:52:08.867589 IP (tos 0x0, ttl 64, id 31332, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x85ec), ack 120433, win 167, options [nop,nop,TS val 3687105765 ecr 3089398442], length 0
+09:52:08.867929 IP (tos 0x0, ttl 64, id 44173, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x92fe (correct), seq 120433:121881, ack 1, win 502, options [nop,nop,TS val 3089398453 ecr 3687105765], length 1448
+09:52:08.868015 IP (tos 0x0, ttl 64, id 44174, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0xc706), seq 121881:129121, ack 1, win 502, options [nop,nop,TS val 3089398453 ecr 3687105765], length 7240
+09:52:08.868039 IP (tos 0x0, ttl 64, id 31333, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x6432), ack 129121, win 101, options [nop,nop,TS val 3687105766 ecr 3089398453], length 0
+09:52:08.868056 IP (tos 0x0, ttl 64, id 44179, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x8de6), seq 129121:133465, ack 1, win 502, options [nop,nop,TS val 3089398453 ecr 3687105765], length 4344
+09:52:08.868075 IP (tos 0x0, ttl 64, id 31334, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x535b), ack 133465, win 68, options [nop,nop,TS val 3687105766 ecr 3089398453], length 0
+09:52:08.868125 IP (tos 0x0, ttl 64, id 44182, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0xf2ef), seq 133465:140705, ack 1, win 502, options [nop,nop,TS val 3089398453 ecr 3687105765], length 7240
+09:52:08.868142 IP (tos 0x0, ttl 64, id 31335, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x374b), ack 140705, win 12, options [nop,nop,TS val 3687105766 ecr 3089398453], length 0
+09:52:08.868155 IP (tos 0x0, ttl 64, id 44187, offset 0, flags [DF], proto TCP (6), length 1156)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x8e67 (correct), seq 140705:141809, ack 1, win 502, options [nop,nop,TS val 3089398453 ecr 3687105765], length 1104
+09:52:08.875386 IP (tos 0x0, ttl 64, id 31336, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x324d), ack 141809, win 179, options [nop,nop,TS val 3687105773 ecr 3089398453], length 0
+09:52:08.875893 IP (tos 0x0, ttl 64, id 44188, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x6897 (correct), seq 141809:143257, ack 1, win 502, options [nop,nop,TS val 3089398461 ecr 3687105773], length 1448
+09:52:08.875971 IP (tos 0x0, ttl 64, id 44189, offset 0, flags [DF], proto TCP (6), length 6188)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x9bf0 (incorrect -> 0xe82e), seq 143257:149393, ack 1, win 502, options [nop,nop,TS val 3089398461 ecr 3687105773], length 6136
+09:52:08.875971 IP (tos 0x0, ttl 64, id 44194, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x4af7 (correct), seq 149393:150841, ack 1, win 502, options [nop,nop,TS val 3089398461 ecr 3687105773], length 1448
+09:52:08.875988 IP (tos 0x0, ttl 64, id 31337, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x0f42), ack 150841, win 109, options [nop,nop,TS val 3687105774 ecr 3089398461], length 0
+09:52:08.876008 IP (tos 0x0, ttl 64, id 44195, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0xec0e), seq 150841:156633, ack 1, win 502, options [nop,nop,TS val 3089398461 ecr 3687105773], length 5792
+09:52:08.876018 IP (tos 0x0, ttl 64, id 31338, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xf8ce), ack 156633, win 64, options [nop,nop,TS val 3687105774 ecr 3089398461], length 0
+09:52:08.876064 IP (tos 0x0, ttl 64, id 44199, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0xd56e), seq 156633:162425, ack 1, win 502, options [nop,nop,TS val 3089398461 ecr 3687105773], length 5792
+09:52:08.876078 IP (tos 0x0, ttl 64, id 31339, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xe25b), ack 162425, win 19, options [nop,nop,TS val 3687105774 ecr 3089398461], length 0
+09:52:08.876116 IP (tos 0x0, ttl 64, id 44203, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x1807 (correct), seq 162425:163873, ack 1, win 502, options [nop,nop,TS val 3089398461 ecr 3687105773], length 1448
+09:52:08.880757 IP (tos 0x0, ttl 64, id 31340, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xdc0e), ack 163873, win 179, options [nop,nop,TS val 3687105779 ecr 3089398461], length 0
+09:52:08.881285 IP (tos 0x0, ttl 64, id 44204, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x125c (correct), seq 163873:165321, ack 1, win 502, options [nop,nop,TS val 3089398466 ecr 3687105779], length 1448
+09:52:08.881347 IP (tos 0x0, ttl 64, id 44205, offset 0, flags [DF], proto TCP (6), length 2948)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x8f48 (incorrect -> 0x4449), seq 165321:168217, ack 1, win 502, options [nop,nop,TS val 3089398466 ecr 3687105779], length 2896
+09:52:08.881358 IP (tos 0x0, ttl 64, id 31341, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xcb32), ack 168217, win 146, options [nop,nop,TS val 3687105779 ecr 3089398466], length 0
+09:52:08.881414 IP (tos 0x0, ttl 64, id 44207, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0xb760), seq 168217:175457, ack 1, win 502, options [nop,nop,TS val 3089398466 ecr 3687105779], length 7240
+09:52:08.881425 IP (tos 0x0, ttl 64, id 31342, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xaf22), ack 175457, win 90, options [nop,nop,TS val 3687105779 ecr 3089398466], length 0
+09:52:08.881460 IP (tos 0x0, ttl 64, id 44212, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0xcfc1), seq 175457:179801, ack 1, win 502, options [nop,nop,TS val 3089398466 ecr 3687105779], length 4344
+09:52:08.881470 IP (tos 0x0, ttl 64, id 31343, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x9e4b), ack 179801, win 57, options [nop,nop,TS val 3687105779 ecr 3089398466], length 0
+09:52:08.881514 IP (tos 0x0, ttl 64, id 44215, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0xbec9), seq 179801:184145, ack 1, win 502, options [nop,nop,TS val 3089398466 ecr 3687105779], length 4344
+09:52:08.881526 IP (tos 0x0, ttl 64, id 31344, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x8d74), ack 184145, win 24, options [nop,nop,TS val 3687105779 ecr 3089398466], length 0
+09:52:08.881570 IP (tos 0x0, ttl 64, id 44218, offset 0, flags [DF], proto TCP (6), length 2692)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x8e48 (incorrect -> 0x813e), seq 184145:186785, ack 1, win 502, options [nop,nop,TS val 3089398466 ecr 3687105779], length 2640
+09:52:08.881584 IP (tos 0x0, ttl 64, id 31345, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x8338), ack 186785, win 4, options [nop,nop,TS val 3687105779 ecr 3089398466], length 0
+09:52:08.885422 IP (tos 0x0, ttl 64, id 31346, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x8274), ack 186785, win 196, options [nop,nop,TS val 3687105783 ecr 3089398466], length 0
+09:52:08.885926 IP (tos 0x0, ttl 64, id 44220, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xe1fb (correct), seq 186785:188233, ack 1, win 502, options [nop,nop,TS val 3089398471 ecr 3687105783], length 1448
+09:52:08.885990 IP (tos 0x0, ttl 64, id 44221, offset 0, flags [DF], proto TCP (6), length 1756)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x8aa0 (incorrect -> 0xa818), seq 188233:189937, ack 1, win 502, options [nop,nop,TS val 3089398471 ecr 3687105783], length 1704
+09:52:08.886000 IP (tos 0x0, ttl 64, id 31347, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x7636), ack 189937, win 172, options [nop,nop,TS val 3687105784 ecr 3089398471], length 0
+09:52:08.886040 IP (tos 0x0, ttl 64, id 44223, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x9728), seq 189937:194281, ack 1, win 502, options [nop,nop,TS val 3089398471 ecr 3687105783], length 4344
+09:52:08.886048 IP (tos 0x0, ttl 64, id 31348, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x655f), ack 194281, win 139, options [nop,nop,TS val 3687105784 ecr 3089398471], length 0
+09:52:08.886103 IP (tos 0x0, ttl 64, id 44226, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x47ad), seq 194281:201521, ack 1, win 502, options [nop,nop,TS val 3089398471 ecr 3687105783], length 7240
+09:52:08.886112 IP (tos 0x0, ttl 64, id 31349, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x494f), ack 201521, win 83, options [nop,nop,TS val 3687105784 ecr 3089398471], length 0
+09:52:08.886150 IP (tos 0x0, ttl 64, id 44231, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0xcaa6), seq 201521:207313, ack 1, win 502, options [nop,nop,TS val 3089398471 ecr 3687105783], length 5792
+09:52:08.886159 IP (tos 0x0, ttl 64, id 31350, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x32dc), ack 207313, win 38, options [nop,nop,TS val 3687105784 ecr 3089398471], length 0
+09:52:08.886206 IP (tos 0x0, ttl 64, id 44235, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x94f0 (incorrect -> 0xd28f), seq 207313:211657, ack 1, win 502, options [nop,nop,TS val 3089398471 ecr 3687105783], length 4344
+09:52:08.886213 IP (tos 0x0, ttl 64, id 31351, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x2205), ack 211657, win 5, options [nop,nop,TS val 3687105784 ecr 3089398471], length 0
+09:52:08.889608 IP (tos 0x0, ttl 64, id 31352, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x2143), ack 211657, win 196, options [nop,nop,TS val 3687105787 ecr 3089398471], length 0
+09:52:08.890178 IP (tos 0x0, ttl 64, id 44238, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa9f4 (correct), seq 211657:213105, ack 1, win 502, options [nop,nop,TS val 3089398475 ecr 3687105787], length 1448
+09:52:08.890240 IP (tos 0x0, ttl 64, id 44239, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0xcbea), seq 213105:220345, ack 1, win 502, options [nop,nop,TS val 3089398475 ecr 3687105787], length 7240
+09:52:08.890251 IP (tos 0x0, ttl 64, id 31353, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xff90), ack 220345, win 129, options [nop,nop,TS val 3687105788 ecr 3089398475], length 0
+09:52:08.890304 IP (tos 0x0, ttl 64, id 44244, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x9bd3), seq 220345:224689, ack 1, win 502, options [nop,nop,TS val 3089398475 ecr 3687105787], length 4344
+09:52:08.890310 IP (tos 0x0, ttl 64, id 31354, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xeeb9), ack 224689, win 96, options [nop,nop,TS val 3687105788 ecr 3089398475], length 0
+09:52:08.890354 IP (tos 0x0, ttl 64, id 44247, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x9a98 (incorrect -> 0x14bb), seq 224689:230481, ack 1, win 502, options [nop,nop,TS val 3089398475 ecr 3687105787], length 5792
+09:52:08.890359 IP (tos 0x0, ttl 64, id 31355, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xd845), ack 230481, win 52, options [nop,nop,TS val 3687105788 ecr 3089398475], length 0
+09:52:08.890424 IP (tos 0x0, ttl 64, id 44251, offset 0, flags [DF], proto TCP (6), length 6316)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x9c70 (incorrect -> 0xa8ef), seq 230481:236745, ack 1, win 502, options [nop,nop,TS val 3089398475 ecr 3687105787], length 6264
+09:52:08.890434 IP (tos 0x0, ttl 64, id 31356, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xbffd), ack 236745, win 4, options [nop,nop,TS val 3687105788 ecr 3089398475], length 0
+09:52:08.892846 IP (tos 0x0, ttl 64, id 31357, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xbf45), ack 236745, win 185, options [nop,nop,TS val 3687105791 ecr 3089398475], length 0
+09:52:08.893298 IP (tos 0x0, ttl 64, id 44256, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x47ed (correct), seq 236745:238193, ack 1, win 502, options [nop,nop,TS val 3089398478 ecr 3687105791], length 1448
+09:52:08.893359 IP (tos 0x0, ttl 64, id 44257, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x519b), seq 238193:245433, ack 1, win 502, options [nop,nop,TS val 3089398478 ecr 3687105791], length 7240
+09:52:08.893366 IP (tos 0x0, ttl 64, id 31358, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x9d95), ack 245433, win 118, options [nop,nop,TS val 3687105791 ecr 3089398478], length 0
+09:52:08.893417 IP (tos 0x0, ttl 64, id 44262, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0x6858), seq 245433:251225, ack 1, win 502, options [nop,nop,TS val 3089398478 ecr 3687105791], length 5792
+09:52:08.893435 IP (tos 0x0, ttl 64, id 31359, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x8721), ack 251225, win 74, options [nop,nop,TS val 3687105791 ecr 3089398478], length 0
+09:52:08.893462 IP (tos 0x0, ttl 64, id 44266, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0x51b8), seq 251225:257017, ack 1, win 502, options [nop,nop,TS val 3089398478 ecr 3687105791], length 5792
+09:52:08.893468 IP (tos 0x0, ttl 64, id 31360, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x70ae), ack 257017, win 29, options [nop,nop,TS val 3687105791 ecr 3089398478], length 0
+09:52:08.893523 IP (tos 0x0, ttl 64, id 44270, offset 0, flags [DF], proto TCP (6), length 3460)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x9148 (incorrect -> 0x6a86), seq 257017:260425, ack 1, win 502, options [nop,nop,TS val 3089398478 ecr 3687105791], length 3408
+09:52:08.893532 IP (tos 0x0, ttl 64, id 31361, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x6378), ack 260425, win 3, options [nop,nop,TS val 3687105791 ecr 3089398478], length 0
+09:52:08.896431 IP (tos 0x0, ttl 64, id 31362, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x62b4), ack 260425, win 196, options [nop,nop,TS val 3687105794 ecr 3089398478], length 0
+09:52:08.896981 IP (tos 0x0, ttl 64, id 44273, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x148f (correct), seq 260425:261873, ack 1, win 502, options [nop,nop,TS val 3089398482 ecr 3687105794], length 1448
+09:52:08.897044 IP (tos 0x0, ttl 64, id 44274, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0xdb29), seq 261873:269113, ack 1, win 502, options [nop,nop,TS val 3089398482 ecr 3687105794], length 7240
+09:52:08.897051 IP (tos 0x0, ttl 64, id 31363, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x4102), ack 269113, win 129, options [nop,nop,TS val 3687105795 ecr 3089398482], length 0
+09:52:08.897101 IP (tos 0x0, ttl 64, id 44279, offset 0, flags [DF], proto TCP (6), length 1964)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x8b70 (incorrect -> 0x5228), seq 269113:271025, ack 1, win 502, options [nop,nop,TS val 3089398482 ecr 3687105794], length 1912
+09:52:08.897101 IP (tos 0x0, ttl 64, id 44281, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x5148), seq 271025:275369, ack 1, win 502, options [nop,nop,TS val 3089398482 ecr 3687105794], length 4344
+09:52:08.897109 IP (tos 0x0, ttl 64, id 31364, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x28c2), ack 275369, win 81, options [nop,nop,TS val 3687105795 ecr 3089398482], length 0
+09:52:08.897165 IP (tos 0x0, ttl 64, id 44284, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x4be7), seq 275369:282609, ack 1, win 502, options [nop,nop,TS val 3089398482 ecr 3687105794], length 7240
+09:52:08.897175 IP (tos 0x0, ttl 64, id 31365, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x0cb2), ack 282609, win 25, options [nop,nop,TS val 3687105795 ecr 3089398482], length 0
+09:52:08.897213 IP (tos 0x0, ttl 64, id 44289, offset 0, flags [DF], proto TCP (6), length 2948)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x8f48 (incorrect -> 0xc341), seq 282609:285505, ack 1, win 502, options [nop,nop,TS val 3089398482 ecr 3687105794], length 2896
+09:52:08.897227 IP (tos 0x0, ttl 64, id 31366, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x0178), ack 285505, win 3, options [nop,nop,TS val 3687105795 ecr 3089398482], length 0
+09:52:08.899391 IP (tos 0x0, ttl 64, id 31367, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x00cb), ack 285505, win 174, options [nop,nop,TS val 3687105797 ecr 3089398482], length 0
+09:52:08.899960 IP (tos 0x0, ttl 64, id 44291, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x942d), seq 285505:289849, ack 1, win 502, options [nop,nop,TS val 3089398485 ecr 3687105797], length 4344
+09:52:08.899970 IP (tos 0x0, ttl 64, id 31368, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xefef), ack 289849, win 141, options [nop,nop,TS val 3687105798 ecr 3089398485], length 0
+09:52:08.900020 IP (tos 0x0, ttl 64, id 44294, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x3ba9), seq 289849:297089, ack 1, win 502, options [nop,nop,TS val 3089398485 ecr 3687105797], length 7240
+09:52:08.900028 IP (tos 0x0, ttl 64, id 31369, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xd3df), ack 297089, win 85, options [nop,nop,TS val 3687105798 ecr 3089398485], length 0
+09:52:08.900061 IP (tos 0x0, ttl 64, id 44299, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x66ed), seq 297089:301433, ack 1, win 502, options [nop,nop,TS val 3089398485 ecr 3687105797], length 4344
+09:52:08.900067 IP (tos 0x0, ttl 64, id 31370, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xc308), ack 301433, win 52, options [nop,nop,TS val 3687105798 ecr 3089398485], length 0
+09:52:08.900119 IP (tos 0x0, ttl 64, id 44302, offset 0, flags [DF], proto TCP (6), length 4396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x94f0 (incorrect -> 0x55f5), seq 301433:305777, ack 1, win 502, options [nop,nop,TS val 3089398485 ecr 3687105797], length 4344
+09:52:08.900124 IP (tos 0x0, ttl 64, id 31371, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xb231), ack 305777, win 19, options [nop,nop,TS val 3687105798 ecr 3089398485], length 0
+09:52:08.900174 IP (tos 0x0, ttl 64, id 44305, offset 0, flags [DF], proto TCP (6), length 2052)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x8bc8 (incorrect -> 0xe4b3), seq 305777:307777, ack 1, win 502, options [nop,nop,TS val 3089398485 ecr 3687105797], length 2000
+09:52:08.900181 IP (tos 0x0, ttl 64, id 31372, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xaa70), ack 307777, win 4, options [nop,nop,TS val 3687105798 ecr 3089398485], length 0
+09:52:08.902657 IP (tos 0x0, ttl 64, id 31373, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0xa9ad), ack 307777, win 196, options [nop,nop,TS val 3687105801 ecr 3089398485], length 0
+09:52:08.902968 IP (tos 0x0, ttl 64, id 44307, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x84b2 (correct), seq 307777:309225, ack 1, win 502, options [nop,nop,TS val 3089398488 ecr 3687105801], length 1448
+09:52:08.903026 IP (tos 0x0, ttl 64, id 44308, offset 0, flags [DF], proto TCP (6), length 2396)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0x8d20 (incorrect -> 0x030a), seq 309225:311569, ack 1, win 502, options [nop,nop,TS val 3089398488 ecr 3687105801], length 2344
+09:52:08.903034 IP (tos 0x0, ttl 64, id 31374, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x9af7), ack 311569, win 167, options [nop,nop,TS val 3687105801 ecr 3089398488], length 0
+09:52:08.903146 IP (tos 0x0, ttl 64, id 44310, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x3dd6), seq 311569:318809, ack 1, win 502, options [nop,nop,TS val 3089398488 ecr 3687105801], length 7240
+09:52:08.903155 IP (tos 0x0, ttl 64, id 31375, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x7ee7), ack 318809, win 111, options [nop,nop,TS val 3687105801 ecr 3089398488], length 0
+09:52:08.903198 IP (tos 0x0, ttl 64, id 44315, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0x92ec), seq 318809:324601, ack 1, win 502, options [nop,nop,TS val 3089398488 ecr 3687105801], length 5792
+09:52:08.903203 IP (tos 0x0, ttl 64, id 31376, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x6874), ack 324601, win 66, options [nop,nop,TS val 3687105801 ecr 3089398488], length 0
+09:52:08.903251 IP (tos 0x0, ttl 64, id 44319, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [P.], cksum 0xa040 (incorrect -> 0x81a7), seq 324601:331841, ack 1, win 502, options [nop,nop,TS val 3089398488 ecr 3687105801], length 7240
+09:52:08.903258 IP (tos 0x0, ttl 64, id 31377, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x4c64), ack 331841, win 10, options [nop,nop,TS val 3687105801 ecr 3089398488], length 0
+09:52:08.905722 IP (tos 0x0, ttl 64, id 31378, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x4ba7), ack 331841, win 196, options [nop,nop,TS val 3687105804 ecr 3089398488], length 0
+09:52:08.906308 IP (tos 0x0, ttl 64, id 44324, offset 0, flags [DF], proto TCP (6), length 1500)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x4fd5 (correct), seq 331841:333289, ack 1, win 502, options [nop,nop,TS val 3089398491 ecr 3687105804], length 1448
+09:52:08.906370 IP (tos 0x0, ttl 64, id 44325, offset 0, flags [DF], proto TCP (6), length 7292)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0xa040 (incorrect -> 0x5fb9), seq 333289:340529, ack 1, win 502, options [nop,nop,TS val 3089398491 ecr 3687105804], length 7240
+09:52:08.906378 IP (tos 0x0, ttl 64, id 31379, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x29f7), ack 340529, win 129, options [nop,nop,TS val 3687105804 ecr 3089398491], length 0
+09:52:08.906424 IP (tos 0x0, ttl 64, id 44330, offset 0, flags [DF], proto TCP (6), length 5844)
+    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x9a98 (incorrect -> 0x3e0e), seq 340529:346321, ack 1, win 502, options [nop,nop,TS val 3089398491 ecr 3687105804], length 5792
+09:52:08.906432 IP (tos 0x0, ttl 64, id 31380, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x1383), ack 346321, win 85, options [nop,nop,TS val 3687105804 ecr 3089398491], length 0
+09:52:08.906478 IP (tos 0x0, ttl 64, id 44334, offset 0, flags [DF], proto TCP (6), length 3732)
+    192.168.1.42.41563 > cynosure.nsca: Flags [FP.], cksum 0x9258 (incorrect -> 0x269c), seq 346321:350001, ack 1, win 502, options [nop,nop,TS val 3089398491 ecr 3687105804], length 3680
+09:52:08.906485 IP (tos 0x0, ttl 64, id 31381, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [.], cksum 0x83f8 (incorrect -> 0x053e), ack 350002, win 57, options [nop,nop,TS val 3687105804 ecr 3089398491], length 0
+09:52:08.917026 IP (tos 0x0, ttl 64, id 31382, offset 0, flags [DF], proto TCP (6), length 52)
+    cynosure.nsca > 192.168.1.42.41563: Flags [F.], cksum 0x83f8 (incorrect -> 0x02ea), seq 1, ack 350002, win 641, options [nop,nop,TS val 3687105815 ecr 3089398491], length 0
+09:52:08.917412 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52)    192.168.1.42.41563 > cynosure.nsca: Flags [.], cksum 0x036a (correct), ack 2, win 502, options [nop,nop,TS val 3089398502 ecr 3687105815], length 0
