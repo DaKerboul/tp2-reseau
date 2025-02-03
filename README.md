@@ -41,3 +41,4 @@ b)
 
 ![alt text](image_perte.png)
 
+![alt text](image_non_perte_tcp.png)
